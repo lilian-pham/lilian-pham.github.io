@@ -1,14 +1,16 @@
 import React from 'react';
-import './App.css';
 
-import MainPage from './pages/main';
+import './App.css'; // not needed
+
+import MainPage from './main';
+import Experience from './components/experience';
 
 function App() {
 
   return (
     <div className="App">
-      <h1> Hi! I'm Lilian! </h1>
       <MainPage />
+      <Experience />
     </div>
   );
 }

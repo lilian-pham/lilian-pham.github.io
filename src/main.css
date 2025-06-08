@@ -1,0 +1,17 @@
+.main-page {
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+    gap: 100px;
+    padding: 100px;
+    color: #000000;
+}
+
+.text-content {
+    margin-left: 10px;
+    padding-left: 50px;
+    line-height: 2;
+}
+
+h2 {
+    color: #000000;
+}
