@@ -1,9 +1,37 @@
-.experience-page {
-    background-color: white;
-    padding: 300px;
-  }
-  
-  .experience-page h2 {
-    text-align: left;
-    color: #F457A3;
-  }
+.experience {
+  display: flex;
+  gap: 200px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(222, 221, 221, 0.2);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.experience-img {
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: contain;
+  margin-left: 5rem;
+}
+
+.experience-info {
+  flex: 1;
+  padding-left: 5rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.date-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details {
+  color: #f0ebeb;
+}
