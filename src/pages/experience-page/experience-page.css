@@ -1,0 +1,49 @@
+.education {
+    display: flex;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36pt;
+    padding-top: 10rem;
+}
+
+.education-img {
+    width: 5rem;
+}
+
+.education-title {
+    font-size: 32px;
+}
+
+.education-description {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.awards-container {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.subdescription {
+    font-size: 15px;
+    margin: 0;
+    padding-left: 1rem;
+    color: #b0b0b0;
+}

@@ -1,9 +1,8 @@
 import React from 'react';
-
-import './App.css'; // not needed
+import './App.css';
 
 import MainPage from './main';
-import Experience from './components/experience';
+import Experience from './pages/experience-page/experience-page';
 
 function App() {
 
