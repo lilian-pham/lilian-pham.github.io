@@ -6,12 +6,26 @@
     color: #000000;
 }
 
-.text-content {
-    margin-left: 10px;
-    padding-left: 50px;
-    line-height: 2;
+.text-content h1 {
+    font-size: 50px; /* or 2rem */
+    font-weight: bold;
 }
 
-h2 {
-    color: #000000;
+.text-content h2 {
+    font-size: 30px; /* or 2rem */
+    font-weight: bold;
+}
+
+.text-content p {
+    font-size: 14px; /* or 1.125rem */
+    line-height: 1.6;
+}
+
+.images {
+    display: flex;
+    justify-content: flex-end;
+    width: 30rem;
+    margin-left: 5rem;             /* adjust as needed */
+    height: 30rem;             /* maintains aspect ratio */
+    border-radius: 50px; 
 }
