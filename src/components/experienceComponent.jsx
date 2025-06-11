@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styling/experience.css';
 
-const ExperienceComponent = ({ company, title, date, descriptions }) => {
+const ExperienceComponent = ({ company, title, date, image }) => {
     return (
         <div className="experience">
-            {/* <img src={image} alt={company} className="experience-img"/> */}
+            <img src={image} alt={company} className="experience-img"/>
             <div className="experience-info">
                 <h3>{company}</h3>
                 <div className="date-title">
@@ -12,13 +12,14 @@ const ExperienceComponent = ({ company, title, date, descriptions }) => {
                     <h5>{date}</h5>
                 </div> {/* Close this div */}
                 
-                {descriptions && descriptions.length > 0 && (
+                {/*{/* {descriptions && descriptions.length > 0 && (
                     <div className="experience-details">
                         {descriptions.map((description, index) => (
                             <span className="details" key={index}>• {description}</span>
                         ))}
                     </div>
-                )}
+                )} */}
+
             </div>
         </div>
     );
