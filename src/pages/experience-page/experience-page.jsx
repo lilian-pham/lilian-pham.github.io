@@ -1,6 +1,7 @@
 import ExperienceComponent from "../../components/experienceComponent";
 import icbc from "../../images/icbc.png";
 import sfu from "../../images/sfu.webp";
+import "./experience-page.css"
 
 const ExperiencePage = () => {
     const experiences = [
@@ -34,16 +35,16 @@ const ExperiencePage = () => {
                 </div>
                 <div className="awards-container">
                     <div>
-                        <p className="education-description">Schulich Leader Scholarship of Canada<br/></p>
+                        <p className="education-description"><strong>Schulich Leader Scholarship of Canada</strong><br/></p>
                         <p className="subdescription">Awarded Canada’s most prestigious STEM scholarship valued at <strong>$100,000 </strong>for academic excellence, leadership, and
 entrepreneurship. Selected out of 300,000 candidates and 1500 nominees nationally - one of two 2023 Leaders at SFU</p>
                     </div>
                     <div>
-                        <p className="education-description">Rajan Family Scholarship in Computing Science</p>
+                        <p className="education-description"><strong>Rajan Family Scholarship in Computing Science</strong></p>
                         <p className="subdescription">Offered a <strong>$40,000</strong> scholarship as the top female candidate entering SFU’s Computer Science program</p>
                     </div>
                     <div>
-                        <p className="education-description">Governor General Bronze Medal of Canada</p>
+                        <p className="education-description"><strong>Governor General Bronze Medal of Canada</strong></p>
                         <p className="subdescription">Recognized as the top graduating student at the bronze level (99% average)</p>
                     </div>
                 </div>
