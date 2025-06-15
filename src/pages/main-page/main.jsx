@@ -4,19 +4,12 @@ import profilepic from '../../images/profilepic.jpg';
 import resume from "./lilianpham_resume.pdf";
 
 function MainPage() {
-  return (
-    <div className="main-page">
-      <div className="text-content">
-        <h1>Lilian Pham</h1>
-        <h2>Overview</h2>
-        <p>
-          Hello! I'm a second-year Computer Science student at Simon Fraser University with a passion
-          for using technology to make a meaningful impact. Outside of coding, I’ve spent years
-          leading community-based youth initiatives focused on STEM education and accessibility for kids.
-          These experiences have shaped how I approach problem-solving, communication, and collaboration.
-          I strive to bring those same values into the tech space — through building software that help
-          make people lives better.
-        </p>
+    return (
+      <>
+        <div className="main-page">
+  
+          <div className="text-content">
+            
 
         <div className="nav-links">
           <a
@@ -51,6 +44,7 @@ function MainPage() {
         <img src={profilepic} alt="Lilian Pham Self-Photo for Bio" />
       </div>
     </div>
+    </>
   );
 }
 
