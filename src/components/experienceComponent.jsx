@@ -1,47 +1,34 @@
 import React from 'react';
 import '../styling/experience.css';
 
-const ExperienceComponent = ({ company, title, date, image }) => {
+const ExperienceComponent = ({ company, title, date, image, link, description }) => {
     return (
         <div className="experience">
-            <img src={image} alt={company} className="experience-img"/>
+            <img src={image} alt={company} className="experience-img" />
             <div className="experience-info">
-                <h3>{company}</h3>
+                <h3>
+                    <a
+                        href="https://www.icbc.com/"
+                        className="company-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Insurance Corporation of British Columbia (ICBC) →
+                    </a>
+                </h3>
+
                 <div className="date-title">
                     <h4>{title}</h4>
                     <h5>{date}</h5>
-                </div> {/* Close this div */}
-                
-                {/*{/* {descriptions && descriptions.length > 0 && (
-                    <div className="experience-details">
-                        {descriptions.map((description, index) => (
-                            <span className="details" key={index}>• {description}</span>
-                        ))}
-                    </div>
-                )} */}
-
+                </div>
+                <ul className="description-list">
+                    {description && description.map((point, index) => (
+                        <li key={index}>{point}</li>
+                    ))}
+                </ul>
             </div>
         </div>
     );
 };
-
-{/* // function Experience() {
-//     return (
-//         <>
-//         <div className="experience-page">
-
-//         <h2>Experience</h2>
-//         <h3>Software Engineer Intern — ICBC </h3>
-//         <p><em>January 2025 - April 2025</em></p>
-
-//         <h3>Software Engineer Intern — ICBC </h3>
-//         <p><em>January 2025 - April 2025</em></p>
-
-
-//         </div>
-        
-//         </>
-//     );
-// } */}
 
 export default ExperienceComponent;
