@@ -1,5 +1,5 @@
 import "../styling/navBar.css";
-import logo from "../images/profilepic.jpg";
+import logo from "../images/logo-favicon.jpeg";
 
 const scrollToSection = (id) => {
   const section = document.getElementById(id);
