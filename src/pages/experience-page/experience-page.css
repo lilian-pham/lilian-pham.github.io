@@ -3,21 +3,20 @@
     align-items: flex-start;
     gap: 2rem;
     padding: 1.5rem 0;
-  }
-  
+}
+
 .experience-img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-  }
-  
+}
+
 .experience-info {
     text-align: left;
     font-family: 'Merriweather', Serif;
     font-size: 1.1rem;
 }
-  
 
 .description-list {
     margin-top: 1rem;
@@ -25,19 +24,8 @@
     padding-left: 1.2rem;
     list-style-type: disc;
     color: #333;
-    text-align: left;   
-    list-style-position: outside; 
-}  
-
-.education {
-    display: flex;
-    gap: 30px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(113, 106, 106, 0.2);
-    width: 100%;
-    margin: 0 auto;
+    text-align: left;
+    list-style-position: outside;
 }
 
 .container {
@@ -47,33 +35,8 @@
 }
 
 .experience-title {
-    font-size: 30pt;
+    font-size: 50pt;
     margin-top: 4rem;
-  }
-
-.education-img {
-    width: 30rem;
-    margin-left: 5rem;
-}
-
-.education-title {
-    font-size: 30pt;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-}
-
-.education-description {
-    font-size: 20px;
-    color: rgb(110, 16, 16);
-    margin: 0;
-}
-
-.awards-container {
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    margin-top: 5rem;
 }
 
 .subdescription {
@@ -84,12 +47,15 @@
 }
 
 a {
-    color: #4a7b9ae6; /* your preferred color */
-    text-decoration: none; /* optional: removes underline */
-  }
-  
-  a:hover {
-    color: #5280d0; /* optional: color when hovering */
-    text-decoration: underline; /* optional: add underline on hover */
-  }
-  
+    color: #4a7b9ae6;
+    /* your preferred color */
+    text-decoration: none;
+    /* optional: removes underline */
+}
+
+a:hover {
+    color: #5280d0;
+    /* optional: color when hovering */
+    text-decoration: underline;
+    /* optional: add underline on hover */
+}
