@@ -16,7 +16,7 @@ const ProjectComponent = ({ name, description, image, github, tags }) => (
           rel="noopener noreferrer"
           className="repo-link"
         >
-          View Repo
+          Click to view the Repo!
         </a>
       )}
 
