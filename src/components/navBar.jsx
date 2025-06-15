@@ -1,21 +1,19 @@
 import "../styling/navBar.css";
 import logo from "../images/logo-favicon.jpeg";
-
-const scrollToSection = (id) => {
-  const section = document.getElementById(id);
-  section?.scrollIntoView({ behavior: "smooth" });
-};
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src={logo} className="logo" alt="Logo" onClick={() => scrollToSection("title")}/>
+      <Link to="/">
+        <img src={logo} className="logo" alt="Logo" />
+      </Link>
 
       <div className="sections">
-      <span onClick={() => scrollToSection("overview")}>Overview</span>
-      <span onClick={() => scrollToSection("education")}>Education</span>
-        <span onClick={() => scrollToSection("experience")}>Experience</span>
-        <span onClick={() => scrollToSection("projects")}>Projects</span>
+        <Link to="/" className="nav-link">Overview</Link>
+        <Link to="/education" className="nav-link">Education</Link>
+        <Link to="/experience" className="nav-link">Experience</Link>
+        <Link to="/projects" className="nav-link">Projects</Link>
       </div>
     </nav>
   );
