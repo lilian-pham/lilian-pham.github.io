@@ -9,7 +9,7 @@ function MainPage() {
   
           <div className="text-content">
             <h1>Lilian Pham</h1>
-            <h2>Bio/Overview:</h2>
+            <h2>Overview:</h2>
             <p>I'm a second-year Computer Science student at Simon Fraser University with a passion
             for using technology to make a meaningful impact. Outside of coding, I’ve spent years
             leading community-based youth initiatives focused on STEM education and accessibility for kids.
