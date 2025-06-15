@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-import profilepic from './images/profilepic.jpg';
+import profilepic from '../../images/profilepic.jpg';
 
 function MainPage() {
     return (
