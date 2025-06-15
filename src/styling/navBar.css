@@ -11,32 +11,31 @@
     padding: 15px 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 3rem;
     cursor: pointer;
-  }
-  
-  .sections {
+}
+
+.sections {
     display: flex;
-    gap: 35px;
-    padding-right: 4rem;
-  }
-  
-  .sections :hover {
+    gap: 30px;
+    padding-right: 2.5rem;
+}
+
+.sections :hover {
     color: #000000;
     cursor: pointer;
-  }
+}
 
-  .nav-link {
+.nav-link {
     text-decoration: none;
     color: inherit;
     margin: 0 1rem;
     cursor: pointer;
-  }
-  
-  .nav-link:hover {
-    color: #ffffff; /* Or your hover color */
-  }
-  
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
