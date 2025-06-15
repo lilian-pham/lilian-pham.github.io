@@ -34,18 +34,6 @@
     flex-direction: column;
 }
 
-.experience-title {
-    font-size: 50pt;
-    margin-top: 4rem;
-}
-
-.subdescription {
-    font-size: 15px;
-    margin: 0;
-    padding-left: 1rem;
-    color: #000000;
-}
-
 a {
     color: #4a7b9ae6;
     /* your preferred color */
