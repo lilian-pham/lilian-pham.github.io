@@ -61,6 +61,8 @@
   
   .images {
     flex-shrink: 0;
+    margin-left: 2rem;
+    margin-top: 5rem;
     width: 450px;
     height: 450px;
     border-radius: 50%;
