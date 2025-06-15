@@ -1,0 +1,30 @@
+.education {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.education-img {
+    width: 300px;
+    height: 300px;
+}
+
+.awards-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.education-title {
+    font-size: 25pt;
+    margin-bottom: 0.5rem;
+}
+
+.subdescription {
+    font-size: 17px;
+    margin: 0;
+    padding-left: 5rem;
+    color: #2a2020;
+}
