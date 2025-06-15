@@ -6,7 +6,7 @@ const EducationComponent = () => {
     return (
       <div className="education">
         <div>
-          <img src={sfu} alt="education" className="education-img" />
+          <img src={sfu} alt="Simon Fraser University logo" className="education-img" />
           <h3 className="education-title">Simon Fraser University</h3>
           <span className="education-description">Expected Graduation: May 2027</span>
         </div>

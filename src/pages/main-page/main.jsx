@@ -47,7 +47,7 @@ function MainPage() {
       </div>
 
       <div className="images">
-        <img src={profilepic} alt="Lilian Pham Self-Photo for Bio" />
+        <img src={profilepic} alt="Lilian Pham Photo" />
       </div>
     </div>
     </>
