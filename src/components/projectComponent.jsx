@@ -3,7 +3,7 @@ import "../styling/project.css";
 
 const ProjectComponent = ({ name, description, image, github, tags }) => (
   <div className="project">
-    <img src={image} alt="{name}" className="project-image" />
+    <img src={image} alt="Screenshot of Lilian Pham Porfolio project" className="project-image" />
 
     <div className="project-info">
       <h3>{name}</h3>

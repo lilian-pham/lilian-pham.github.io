@@ -4,7 +4,7 @@ import '../styling/experience.css';
 const ExperienceComponent = ({ company, title, date, image, link, description }) => {
     return (
         <div className="experience">
-            <img src={image} alt="ICBC Corporation logo" className="experience-img" />
+            <img src={image} alt="Insurance Corporation of British Columbia logo" className="experience-img" />
             <div className="experience-info">
                 <h3>
                     <a
