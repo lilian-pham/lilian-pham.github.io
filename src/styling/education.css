@@ -22,10 +22,26 @@
     font-weight: bold;
     text-align: left;
     margin-top: -8px;
+    margin-left: 35px;
 }
 
 .education-description {
-    font-size: 1em;
+    font-size: 1.1rem;
     color: #000000;
     text-align: left;
+    margin-left: 35px;
+}
+
+.subdescription {
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.study-description {
+    font-size: 1.8rem;
+    color: #c20000;
+    text-align: left;
+    margin-left: 35px;
 }
