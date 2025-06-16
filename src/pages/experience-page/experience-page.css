@@ -36,14 +36,18 @@
 
 a {
     color: #4a7b9ae6;
-    /* your preferred color */
     text-decoration: none;
-    /* optional: removes underline */
 }
 
 a:hover {
     color: #5280d0;
-    /* optional: color when hovering */
     text-decoration: underline;
-    /* optional: add underline on hover */
+}
+.experience-page-title {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 7rem; 
+    margin-bottom: 1.5rem; 
 }

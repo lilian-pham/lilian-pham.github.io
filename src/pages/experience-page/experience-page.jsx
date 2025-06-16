@@ -22,7 +22,7 @@ const ExperiencePage = () => {
 
     return (
         <div>
-            <h2>Experience</h2>
+            <h2 className="experience-page-title">Experience</h2>
             <div className="container">
                 {experiences.map((experience, index) => (
                     <ExperienceComponent
