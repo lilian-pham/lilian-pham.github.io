@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lilian-pham.github.io/static/css/main.8bcc6bd8.css",
-    "main.js": "/lilian-pham.github.io/static/js/main.a201c1f3.js",
-    "static/media/personalwebsite.png": "/lilian-pham.github.io/static/media/personalwebsite.40929a11e5e1b3a8aabe.png",
-    "static/media/lilianpham_resume.pdf": "/lilian-pham.github.io/static/media/lilianpham_resume.c56da664b2346d1cfde6.pdf",
-    "static/media/logo-favicon.jpeg": "/lilian-pham.github.io/static/media/logo-favicon.a5739fa3da9697aea53d.jpeg",
-    "static/media/profilepic.jpg": "/lilian-pham.github.io/static/media/profilepic.26bcaa4e9097dad74b33.jpg",
-    "static/media/icbc.png": "/lilian-pham.github.io/static/media/icbc.9703495086151429faa3.png",
-    "static/media/sfu.webp": "/lilian-pham.github.io/static/media/sfu.1ed81ab84e8f763b8ba2.webp",
-    "index.html": "/lilian-pham.github.io/index.html",
-    "main.8bcc6bd8.css.map": "/lilian-pham.github.io/static/css/main.8bcc6bd8.css.map",
-    "main.a201c1f3.js.map": "/lilian-pham.github.io/static/js/main.a201c1f3.js.map"
+    "main.css": "/static/css/main.8bcc6bd8.css",
+    "main.js": "/static/js/main.3b6e154a.js",
+    "static/media/personalwebsite.png": "/static/media/personalwebsite.40929a11e5e1b3a8aabe.png",
+    "static/media/lilianpham_resume.pdf": "/static/media/lilianpham_resume.c56da664b2346d1cfde6.pdf",
+    "static/media/logo-favicon.jpeg": "/static/media/logo-favicon.a5739fa3da9697aea53d.jpeg",
+    "static/media/profilepic.jpg": "/static/media/profilepic.26bcaa4e9097dad74b33.jpg",
+    "static/media/icbc.png": "/static/media/icbc.9703495086151429faa3.png",
+    "static/media/sfu.webp": "/static/media/sfu.1ed81ab84e8f763b8ba2.webp",
+    "index.html": "/index.html",
+    "main.8bcc6bd8.css.map": "/static/css/main.8bcc6bd8.css.map",
+    "main.3b6e154a.js.map": "/static/js/main.3b6e154a.js.map"
   },
   "entrypoints": [
     "static/css/main.8bcc6bd8.css",
-    "static/js/main.a201c1f3.js"
+    "static/js/main.3b6e154a.js"
   ]
 }
