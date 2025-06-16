@@ -16,15 +16,6 @@
     margin-left: 2.5rem;
 }
 
-.education-title {
-    font-size: 1.5em;
-    color: #d31010;
-    font-weight: bold;
-    text-align: left;
-    margin-top: -8px;
-    margin-left: 35px;
-}
-
 .education-description {
     font-size: 1.1rem;
     color: #000000;
@@ -44,4 +35,17 @@
     color: #c20000;
     text-align: left;
     margin-left: 35px;
+}
+
+.sfu-cs-link {
+    color: #c11717;
+    font-weight: bold; 
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sfu-cs-link:hover {
+    text-decoration: underline;
+    color: #602525;
 }
