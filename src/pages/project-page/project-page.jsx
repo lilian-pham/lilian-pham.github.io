@@ -21,7 +21,7 @@ const ProjectsPage = () => {
 
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 className="projects-page-title">Technical Projects</h2>
       <div className="projects-container">
         {projectList.map((project, index) => (
           <ProjectComponent

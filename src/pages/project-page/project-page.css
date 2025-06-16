@@ -5,6 +5,15 @@
     margin-top: 20px;
 }
 
+.projects-page-title {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 7rem; 
+    margin-bottom: 1.5rem; 
+}
+
 .repo-link {
     font-family: 'Merriweather', serif;
     font-weight: bold;
