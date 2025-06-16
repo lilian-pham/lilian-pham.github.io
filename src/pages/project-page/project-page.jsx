@@ -6,7 +6,7 @@ import "./project-page.css"
 const ProjectsPage = () => {
   const projectList = [
     {
-      name: "Lilian's Personal Website",
+      name: "Lilian Pham Portfolio",
       description: "This is a personal website with an overview that explains more about my biography, work experience, education, and projects. This website was built using React (CMPT 276 Summer 2025).",
       image: personalWebsite,
       github: "https://github.com/lilian-pham/lilian-pham.github.io",
